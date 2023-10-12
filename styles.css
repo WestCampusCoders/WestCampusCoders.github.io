@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/1650607809446.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: [first] 25% [line2] auto [line3] 25% [line4];
+    grid-template-rows: [row1] auto [row2] auto [row3] auto [row4];
+  }
+.First{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 50px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-linear-gradient(#625dc2, #9dabc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(3px 10px 4px black);
+  
+} 
+.Logo{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SunDevil{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40;
+  height: 40;
+}
